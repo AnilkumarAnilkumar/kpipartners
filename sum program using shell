@@ -1,0 +1,7 @@
+#!/bin/sh
+echo "Enter a number "
+read a 
+echo " Enter the another number "
+read b
+sum= $(($a + $b))
+echo "the total sum is " $sum
