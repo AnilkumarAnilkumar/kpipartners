@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Enter a number"
+read n
+if ([ $n -ge 10] && [$n -le 20]) || ([ $n -ge 100] && [$n -le 200])
+then
+echo "Input number is between 10-20 or 100-200"
+else
+echo "Input number is neither between 10-20 nor 100-200"
