@@ -1,0 +1,10 @@
+#!/bin/bash
+name="How are you"
+case $name in
+    "Linux")
+      echo "Not quite right"
+      ;;
+      "how Linux")
+      echo "That's right"
+      ;;
+      esac
